@@ -1,0 +1,17 @@
+@import "~normalize.css";
+@import "helvetica.css";
+
+body{
+    font-family: 'Helvetica Regular', sans-serif ;
+
+}
+
+/* .container{
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+} */
+
+/* h1{
+    text-align: center;
+} */

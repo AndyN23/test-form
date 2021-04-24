@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+<script defer src="main.f885cc016eda54776ba7.js"></script><script defer src="toggle.21f58490b77ce6cd5cb7.js"></script><link href="main.ef00dd0c4b4078ce5dc6.css" rel="stylesheet"></head>
+<body>
+    <div class="container">
+        <form class="form" action="#" methods="post" enctype="multipart/form-data">
+            <h1>FTL: Прямая машина</h1>
+            <div class="form__block way">
+                <h2 class="way__title form-title">
+                    <span>1</span>
+                    Маршрут
+                </h2>
+                <label for="from">Откуда</label>
+                <input type="text" id="from" tabindex="1" name="from">
+                <label for="where">Куда</label>
+                <input type="text" id="where" tabindex="2" name="where">
+            </div>
+            <div class="form__block transport">
+                <h2 class="transport__title form-title">
+                    <span>2</span>
+                    Транспорт
+                </h2>
+                <div class="transport__varieteis">
+                    <div class="dropdown">
+                        <div class="dropdown__title"> Грузоподъёмность</div>
+                        <div class="dropdown-select">
+                            <span class="select__text">Не выбрана</span>
+                            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 0L4 3L7 0L8 1L4 5L0 1L1 0Z" fill="black"/>
+                            </svg>
+                        </div>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-list__item">Варинат 1</li>
+                            <li class="dropdown-list__item">Варинат 2</li>
+                            <li class="dropdown-list__item">Варинат 3</li>
+                            <li class="dropdown-list__item">Варинат 4</li>
+                            <li class="dropdown-list__item">Варинат 5</li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <div class="dropdown__title"> Способ погрузки</div>
+                        <div class="dropdown-select">
+                            <span class="select__text">Не выбрана</span>
+                            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 0L4 3L7 0L8 1L4 5L0 1L1 0Z" fill="black"/>
+                            </svg>
+                        </div>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-list__item">Варинат 1</li>
+                            <li class="dropdown-list__item">Варинат 2</li>
+                            <li class="dropdown-list__item">Варинат 3</li>
+                            <li class="dropdown-list__item">Варинат 4</li>
+                            <li class="dropdown-list__item">Варинат 5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="form__block cargo">
+                <h2 class="cargo__title form-title">
+                    <span>3</span>
+                    Груз
+                </h2>
+
+                <div class="cargo-varieties">
+                    <div class="cargo__type select">
+                        <div class="dropdown">
+                            <div class="dropdown__title"> Тип груза</div>
+                            <div class="dropdown-select">
+                                <span class="select__text">Не выбрана</span>
+                                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 0L4 3L7 0L8 1L4 5L0 1L1 0Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <ul class="dropdown-list">
+                                <li class="dropdown-list__item">Варинат 1</li>
+                                <li class="dropdown-list__item">Варинат 2</li>
+                                <li class="dropdown-list__item">Варинат 3</li>
+                                <li class="dropdown-list__item">Варинат 4</li>
+                                <li class="dropdown-list__item">Варинат 5</li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="cargo__level">
+                        <div class="dropdown">
+                            <div class="dropdown__title"> Класс опасности</div>
+                            <div class="dropdown-select">
+                                <span class="select__text">Не выбрана</span>
+                                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 0L4 3L7 0L8 1L4 5L0 1L1 0Z" fill="black"/>
+                                </svg>
+                            </div>
+                            <ul class="dropdown-list">
+                                <li class="dropdown-list__item">Варинат 1</li>
+                                <li class="dropdown-list__item">Варинат 2</li>
+                                <li class="dropdown-list__item">Варинат 3</li>
+                                <li class="dropdown-list__item">Варинат 4</li>
+                                <li class="dropdown-list__item">Варинат 5</li>
+                            </ul>
+                        </div>
+                        <div class="cargo-safety">
+                            <label for="safety-cargo">Объявленная ценность,Р</label> 
+                            <input type="text" placeholder="≥1" id="safety-cargo">
+                        </div>
+                    </div>
+                    <div class="cargo__special">
+                        <label for="special-cargo">
+                            <input type="checkbox" name="special-cargo" id="special-cargo" class="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span>Требуется температурный режим</span>
+                        </label>     
+                    </div>
+                    <div class="special__temperature">
+                        <label for="temp-start">                        
+                            <span> От, С</span>
+                            <input type="text" name="temp-start" id="temp-start" class="temp-start">
+                        </label>  
+                        <label for="temp-end">                      
+                            <span>До, С</span>
+                            <input type="text" name="temp-end" id="temp-end" class="temp-end">
+                        </label>  
+                    </div>
+                </div>
+                
+            </div>
+            <div class="form__block time">
+                <h2 class="time__title form-title">
+                    <span>4</span>
+                    Время
+                </h2>   
+
+                <div class="time__way">
+                    <div class="time__way-comments">
+                        <span>
+                            Когда прибыть на точку
+                        </span>
+                        <span>
+                            700 км в день
+                        </span>
+                    </div>
+                    <div class="time__way-inputs">
+                        <div class="input__way">
+                            <span class="input-inform active">Адрес не указан</span>
+                            <label>
+                                <input type="date" name="my-date" min="2021-04-22">
+                            </label>
+                            <span class="input-btn">Не выбрано</span>
+                        </div>
+                        <div class="input__way">
+                            <span class="input-inform">Адрес не указан</span>
+                            <label>
+                                <input type="date" name="my-date" min="2021-04-22">
+                            </label>
+                            <span class="input-btn">Не выбрано</span>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="time__comment">
+                    <span>Комментарий к заказу</span>                    
+                    <textarea name="text" placeholder="Укажите особенности въезда на территорию склада и подъезда к адресу"></textarea>
+                </div>
+            </div>
+        </form>
+
+        <div class="prompt">
+            <p class="prompt__text">Для расчета стоимости необходимо ввести параметры груза, пункты отправки и прибытия.</p>
+        </div>
+    </div>
+
+</body>
+</html>
